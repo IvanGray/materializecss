@@ -1,0 +1,52 @@
+body{
+	background: #000;
+}
+body p{
+	color: #fff;
+}
+span{
+	font-size: 20px;
+}
+p{
+	color: #fff;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 0;
+}
+@media screen and (max-width: 1200px) {
+	p{
+		font-size: 20px;
+	}
+}
+.footer-page .meeting .call-form {
+	text-align: center;
+}
+
+.footer-page .meeting .call-form .big-btn {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.footer-page .meeting .call-form .big-btn label {
+	position: relative;
+	top: -6px;
+	font-family: "Roboto", Arial, sans-serif;
+	color: #6db41c;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+	text-align: center;
+}
+.connected li:last-child {
+	margin-right: 0;
+}
+
+.connected li a {
+	display: inline-block;
+	opacity: .5;
+}
+
+.connected li a:hover {
+	opacity: 1;
+}

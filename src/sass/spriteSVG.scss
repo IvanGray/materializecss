@@ -1,0 +1,18 @@
+%svg-common {
+	background: url("../images/icons/sprite.svg") no-repeat;
+}
+
+.icon-ok-s {
+	@extend %svg-common;
+	background-position: 0 0;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-vk-s {
+	@extend %svg-common;
+	background-position: 0 100%;
+	width: 20px;
+	height: 20px;
+}
+

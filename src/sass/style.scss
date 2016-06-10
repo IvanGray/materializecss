@@ -1,0 +1,33 @@
+$myColor1:navy;
+$myColor2:#000800;
+$font:36px;
+
+/* base */
+@mixin test-mixin{
+	padding: 50px;
+}
+
+h1,h2{
+	color: $myColor1;
+	font-size: $font + 2;
+	@media screen and (max-width: 1600px) {
+		font-size: 12px + 3;
+	}
+	&:after{
+		content:'';
+		display: inline-block;
+		// .icon-ok-s;
+	}
+}
+
+body{
+	background:#fff;
+	@include test-mixin;
+	p{
+		color: lighten(#000, 20%);
+		&:hover{
+			color: red;
+			font-size: 22px;
+		}
+	}
+}
